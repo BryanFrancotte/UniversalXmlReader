@@ -1,4 +1,5 @@
 ﻿using System;
+using DemoApplication.logic;
 
 namespace DemoApplication
 {
@@ -6,7 +7,18 @@ namespace DemoApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            printLogo();
+            Logic.ExecuteLogic(args);
+        }
+
+        public static void printLogo(){
+            Console.WriteLine(@" __  __                                                     ___   __   __               ___    ____                        __                  ");
+            Console.WriteLine(@"/\ \/\ \          __                                       /\_ \ /\ \ /\ \             /\_ \  /\  _`\                     /\ \                 ");
+            Console.WriteLine(@"\ \ \ \ \    ___ /\_\  __  __     __   _ __   ____     __  \//\ \\ `\`\/'/'    ___ ___ \//\ \ \ \ \L\ \     __     __     \_\ \     __   _ __  ");
+            Console.WriteLine(@" \ \ \ \ \ /' _ `\/\ \/\ \/\ \  /'__`\/\`'__\/',__\  /'__`\  \ \ \`\/ > <    /' __` __`\ \ \ \ \ \ ,  /   /'__`\ /'__`\   /'_` \  /'__`\/\`'__\");
+            Console.WriteLine(@"  \ \ \_\ \/\ \/\ \ \ \ \ \_/ |/\  __/\ \ \//\__, `\/\ \L\.\_ \_\ \_ \/'/\`\ /\ \/\ \/\ \ \_\ \_\ \ \\ \ /\  __//\ \L\.\_/\ \L\ \/\  __/\ \ \/ ");
+            Console.WriteLine(@"   \ \_____\ \_\ \_\ \_\ \___/ \ \____\\ \_\\/\____/\ \__/.\_\/\____\/\_\\ \_\ \_\ \_\ \_\/\____\\ \_\ \_\ \____\ \__/.\_\ \___,_\ \____\\ \_\ ");
+            Console.WriteLine(@"    \/_____/\/_/\/_/\/_/\/__/   \/____/ \/_/ \/___/  \/__/\/_/\/____/\/_/ \/_/\/_/\/_/\/_/\/____/ \/_/\/ /\/____/\/__/\/_/\/__,_ /\/____/ \/_/ ");
         }
     }
 }
