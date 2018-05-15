@@ -2,12 +2,4 @@ theme: jekyll-theme-minimal
 title: Universal Xml Reader
 description: Xml reader that parse every file without knowing the structure.
 logo: /assets/img/logo.png
-show_dowloads: true
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
+show_downloads: true
