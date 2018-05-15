@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VATConsignment xmlns:ic="http://www.minfin.fgov.be/InputCommon" xmlns="http://www.minfin.fgov.be/VATConsignment" VATDeclarationsNbr="1">
+  <Representative>
+    <ic:RepresentativeID issuedBy="BE" identificationType="NVAT">999999</ic:RepresentativeID>
+    <ic:Name>TestCompany</ic:Name>
+    <ic:Street>heyhey</ic:Street>
+    <ic:PostCode>9999</ic:PostCode>
+    <ic:City>blurpCity</ic:City>
+    <ic:CountryCode>BE</ic:CountryCode>
+    <ic:EmailAddress />
+    <ic:Phone />
+  </Representative>
+  <RepresentativeReference>999999</RepresentativeReference>
+  <VATDeclaration DeclarantReference="99999999999999" SequenceNumber="1">
+    <Declarant>
+      <ic:VATNumber>999999</ic:VATNumber>
+      <ic:Name>TestCompany</ic:Name>
+      <ic:Street>heyhey</ic:Street>
+      <ic:PostCode>9999</ic:PostCode>
+      <ic:City>blurpCity</ic:City>
+      <ic:CountryCode>BE</ic:CountryCode>
+      <ic:EmailAddress />
+      <ic:Phone />
+    </Declarant>
+    <Period>
+      <Month>12</Month>
+      <Year>2017</Year>
+    </Period>
+    <Data>
+      <Amount GridNumber="0">100</Amount>
+      <Amount GridNumber="55">200</Amount>
+      <Amount GridNumber="56">400</Amount>
+      <Amount GridNumber="59">300</Amount>
+      <Amount GridNumber="62">500</Amount>
+      <Amount GridNumber="63">600</Amount>
+      <Amount GridNumber="82">750</Amount>
+      <Amount GridNumber="83">0</Amount>
+      <Amount GridNumber="85">900</Amount>
+      <Amount GridNumber="86">450</Amount>
+      <Amount GridNumber="87">900</Amount>
+      <Amount GridNumber="71">100</Amount>
+    </Data>
+    <ClientListingNihil>NO</ClientListingNihil>
+    <Ask Payment="NO" Restitution="NO" />
+  </VATDeclaration>
+</VATConsignment>
