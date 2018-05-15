@@ -1,1 +1,0 @@
-# <img src="./docs/img/logo.png">
