@@ -272,11 +272,7 @@ __pycache__/
 # tools/
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 .history
 
 ### VisualStudio ###
