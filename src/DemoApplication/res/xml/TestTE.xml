@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VATConsignment xmlns:ic="http://www.minfin.fgov.be/InputCommon" xmlns="http://www.minfin.fgov.be/VATConsignment" VATDeclarationsNbr="1">
+  <Representative>
+    <ic:RepresentativeID issuedBy="BE" identificationType="NVAT">e</ic:RepresentativeID>
+    <ic:Name>e</ic:Name>
+    <ic:Street>e</ic:Street>
+    <ic:PostCode>e</ic:PostCode>
+    <ic:City>e</ic:City>
+    <ic:CountryCode>BE</ic:CountryCode>
+    <ic:EmailAddress>e</ic:EmailAddress>
+    <ic:Phone>e</ic:Phone>
+  </Representative>
+  <RepresentativeReference>e</RepresentativeReference>
+  <VATDeclaration DeclarantReference="99999999999999" SequenceNumber="1">
+    <Declarant>
+      <ic:VATNumber>e</ic:VATNumber>
+      <ic:Name>e</ic:Name>
+      <ic:Street>e</ic:Street>
+      <ic:PostCode>e</ic:PostCode>
+      <ic:City>e</ic:City>
+      <ic:CountryCode>BE</ic:CountryCode>
+      <ic:EmailAddress>e</ic:EmailAddress>
+      <ic:Phone>e</ic:Phone>
+    </Declarant>
+    <Period>
+      <Month />
+      <Year />
+    </Period>
+    <Data>
+      <Amount GridNumber="0">0.00</Amount>
+      <Amount GridNumber="1">0.00</Amount>
+      <Amount GridNumber="2">0.00</Amount>
+      <Amount GridNumber="3">0.00</Amount>
+      <Amount GridNumber="44">0.00</Amount>
+      <Amount GridNumber="45">0.00</Amount>
+      <Amount GridNumber="46">0.00</Amount>
+      <Amount GridNumber="47">0.00</Amount>
+      <Amount GridNumber="48">0.00</Amount>
+      <Amount GridNumber="49">0.00</Amount>
+      <Amount GridNumber="54">0.00</Amount>
+      <Amount GridNumber="55">0.00</Amount>
+      <Amount GridNumber="56">0.00</Amount>
+      <Amount GridNumber="57">0.00</Amount>
+      <Amount GridNumber="59">0.00</Amount>
+      <Amount GridNumber="61">0.00</Amount>
+      <Amount GridNumber="62">0.00</Amount>
+      <Amount GridNumber="63">0.00</Amount>
+      <Amount GridNumber="64">0.00</Amount>
+      <Amount GridNumber="72">50.00</Amount>
+      <Amount GridNumber="81">0.00</Amount>
+      <Amount GridNumber="82">0.00</Amount>
+      <Amount GridNumber="83">0.00</Amount>
+      <Amount GridNumber="84">0.00</Amount>
+      <Amount GridNumber="85">0.00</Amount>
+      <Amount GridNumber="86">0.00</Amount>
+      <Amount GridNumber="87">0.00</Amount>
+      <Amount GridNumber="88">0.00</Amount>
+    </Data>
+    <ClientListingNihil>NO</ClientListingNihil>
+    <Ask Payment="NO" Restitution="NO" />
+  </VATDeclaration>
+</VATConsignment>
