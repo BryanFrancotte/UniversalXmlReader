@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Universal Xml Reader
 description: Xml reader that parse every file without knowing the structure.
-logo: https://github.com/BryanFrancotte/UniversalXmlReader/blob/master/docs/img/logo.png
+logo: /assets/img/logo.png
 show_dowloads: true
