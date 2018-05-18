@@ -4,5 +4,6 @@ namespace UniversalXmlReader.constant
     {
         private const string RES = "./res/";
         public const string XML = RES + "xml/";
+        public const string STRUCT = RES + "struct/";
     }
 }

@@ -1,0 +1,68 @@
+#Custom object
+var Description {
+	Value
+	Language
+}
+var BaseChild {
+	Code
+	Description X
+}
+#Structure
+struct Enterprise {
+	Number
+	JuridicalSituation {
+		BaseChild
+		Status {
+			BaseChild
+		}
+	}
+	TypeOfEnterprise
+	JuridicalForm {
+		BaseChild
+	}
+	Denomination X {
+		BaseChild
+	}
+	Address {
+		Street {
+			BaseChild
+		}
+		HouseNumber
+		ZipCode
+		Municipality {
+			BaseChild
+		}
+		ExtraAddressInfo
+		WebSite
+		Email
+		PhoneNumber
+		FaxNumber
+		TypeOfAddress {
+			BaseChild
+		}
+	}
+	BusinessUnits
+	Qualification X {
+		BaseChild
+	}
+	Activity X {
+		BaseChild
+		Version
+		ActivityClassification {
+			BaseChild
+		}
+	}
+	Function X {
+		BaseChild
+		Person {
+			Surname
+			GivenName
+		}
+		EnterpriseNumber
+	}
+	LinkedEnterprise X {
+		BaseChild
+		EnterpriseNumberSubject
+		EnterpriseNumberObject
+	}
+}
